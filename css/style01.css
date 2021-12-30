@@ -1,0 +1,18 @@
+/*chapter 7 css 파일*/
+/*글자 뒷배경*/
+h1{
+background-color:pink;
+}
+/*글씨 색*/
+#blue {
+color:white;
+background-color:blue;
+
+}
+/*뒷배경*/
+body{
+    background-image:url("../img/flower1.jpg");
+background-repeat:no-repeat;
+
+/*background-color:gray;*/}
+
