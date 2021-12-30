@@ -11,8 +11,11 @@ background-color:blue;
 }
 /*뒷배경*/
 body{
-    background-image:url("../img/flower1.jpg");
+background-image:url("../img/flower1.jpg");
 background-repeat:no-repeat;
+background position:right center;
+
+
 
 /*background-color:gray;*/}
 
