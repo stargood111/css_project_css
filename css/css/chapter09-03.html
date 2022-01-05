@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블</title>
+    <style>
+        table {
+            border-collapse:collapse;
+            width:700px;
+            text-align:center;
+        }
+
+        table, td, th {
+            border:solid 1px black;
+        }
+        tr {
+            height:50px;
+        }
+        #title_tr {
+            height:30px;
+            background-color:#eeeeee;
+        }
+        td {
+            width:80px;
+        }
+        #train_number{
+            width:100px;
+        }
+
+        #train_time{
+            width:120px;
+        }
+        .train_num{
+            background-color:pink;
+            text-decoration:underline;
+            font-weight:bold;
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>KTX 열차표 예매</h1>
+
+    <table>
+        <tr id="title_tr">
+            <th class="train_number">열차번호</th>
+            <th>출발</th>
+            <th>도착</th>
+            <th>특실</th>
+            <th>일반실</th>
+            <th id="train_time">소요시간</th>
+        </tr>
+        <tr>
+            <td class = "train_num">175</td>
+            <td>서울<br>21:00</td>
+            <td>부산<br>23:44</td>
+            <td><img src="../img/full.png"></td>
+            <td><img src="../img/full.png"></td>
+            <td>02:44</td>
+        </tr>
+        <tr>
+            <td class ="train_num">177</td>
+            <td>서울<br>21:30</td>
+            <td>부산<br>00:08</td>
+            <td><img src="../img/empty.png"></td>
+            <td><img src="../img/empty.png"></td>
+            <td>02:38</td>
+        </tr>
+        <tr>
+            <td class = "train_num">179</td>
+            <td>서울<br>22:00</td>
+            <td>부산<br>00:42</td>
+            <td><img src="../img/empty.png"></td>
+            <td><img src="../img/empty.png"></td>
+<!--            경로 확인을 잘 해주어야 함.-->
+            <td>02:42</td>
+        </tr>
+
+
+    </table>
+
+</body>
+</html>
